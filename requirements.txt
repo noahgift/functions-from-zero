@@ -3,3 +3,4 @@ pytest
 black
 wikipedia
 ipython
+fire

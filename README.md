@@ -31,3 +31,8 @@ something like this
 ### Invoke POST request
 
 run `invoke.sh`
+
+## References
+
+* [Watch Walkthrough on YouTube](https://youtu.be/KOAdCqpQSI4)
+

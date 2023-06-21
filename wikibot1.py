@@ -1,0 +1,7 @@
+import wikipedia
+
+def scrape(name="Microsoft", length=1):
+    result = wikipedia.summary(name=name, sentences=length)
+    return result
+
+print(scrape("Wikipedia"))

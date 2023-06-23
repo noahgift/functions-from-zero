@@ -1,5 +1,5 @@
 import wikipedia
 
-def scrape(name="Microsoft", length=1):
+def scrape(name, length):
     result = wikipedia.summary(name, sentences=length)
     return result

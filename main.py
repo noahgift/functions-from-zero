@@ -15,7 +15,7 @@ class Wiki(BaseModel):
 
 @app.post("/wiki")
 async def scrape_story(wiki: Wiki):
-    result = scrape(name=wiki.name)
+    result = scrape(name=wiki.name, length=1)
     payload = {"wikipage": result}
     json_compatible_item_data = jsonable_encoder(payload)
     return JSONResponse(content=json_compatible_item_data)
